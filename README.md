@@ -1,8 +1,8 @@
 # CI_PageConstructor v0.3
 Codeigniter Library to construct frontend with integrated support for
-- [x] bootstarp 4.0A 
+- [x] Bootstrap 4.0A 
 - [x] jQuery
-- [x] Font Awsome 5
+- [x] Font Awesome 5
 - [x] Animate CSS
 - [x] optional directory based css loading
 - [x] optional js run file
@@ -13,10 +13,13 @@ Codeigniter Library to construct frontend with integrated support for
 1. Copy the PageConstructor.php to `/application/libraries/`
 2. load PC to CI whit auto or manual method.
 3. Optional edit the settings/switches in the PageConstructor as you need.
-4. construct your HTML header with `$this->PC->HEAD();`
+4. Construct your HTML header with `$this->PC->HEAD();`
+5. Construct your Footer with `$this->PC->FOOTER(); ` to the end of your content.
+
+* Now your frontend contains all nessesery files to use bootstrap 4 & 
 
 ## Manual Load to CodeIgniter
-implement the codigniter standard library load method in the `__construct` or in the `function`.
+implement the CodeIgniterigniter standard library load method in the `__construct` or in the `function`.
 Example:
 ```
 $this->load->library('PageConstructor' => 'PC');
@@ -28,7 +31,7 @@ change in `/application/config/autoload.php` around line 61..
 To
 ``` $autoload['libraries'] = array('PageConstructor' => 'PC'); ```
 
-now you can use PC as an object ready to generate the frontend booring part :)
+now you can use PC as an object ready to generate the frontend boring part :)
 
 ### Example
 if the PageConstructor is loaded with AutoLoader
