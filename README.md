@@ -9,7 +9,7 @@ Codeigniter Library to construct frontend with integrated support for
 - [ ] Favicon
 - [ ] Meta / Page title
 
-##easy integration: 
+## easy integration: 
 1. Copy the PageConstructor.php to `/application/libraries/`
 2. load PC to CI whit auto or manual method.
 3. Optional edit the settings/switches in the PageConstructor as you need.
@@ -35,7 +35,7 @@ now you can use PC as an object ready to generate the frontend booring part :)
 
 ### Example
 if the PageConstructor is loaded with AutoLoader
-####Controller
+#### Controller
 ```
 class Home extends CI_Controller {
 
