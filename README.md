@@ -19,10 +19,7 @@ Codeigniter Library to construct frontend with integrated support for
 implement the codigniter standard library load method in the `__construct` or in the `function`.
 Example:
 ```
-public function __construct() {
-        parent::__construct();
-        $this->load->library('PageConstructor' => 'PC');
-}
+$this->load->library('PageConstructor' => 'PC');
 ```
 
 ## AutoLoad to CodeIgniter
