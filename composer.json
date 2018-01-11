@@ -1,0 +1,14 @@
+{
+    "name": "northwebsolutions/ci3-pageconstructor",
+    "description": "CodeIgniter 3 Library for bootstrap 4.0 and other front-end enchantments",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "North Web Solutions LTD.",
+            "email": "info@northweb.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
