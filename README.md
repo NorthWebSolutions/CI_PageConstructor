@@ -9,7 +9,11 @@ Codeigniter Library to construct frontend with integrated support for
 - [ ] Favicon
 - [ ] Meta / Page title
 
-## easy integration: 
+## Easy integration: 
+Composer: 
+`composers require northwebsolutions/ci3-pageconstructor:dev-master`
+
+manual: 
 1. Copy the PageConstructor.php to `/application/libraries/`
 2. load PC to CI whit auto or manual method.
 3. Optional edit the settings/switches in the PageConstructor as you need.
