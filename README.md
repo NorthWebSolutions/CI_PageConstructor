@@ -1,6 +1,6 @@
 # CI_PageConstructor v0.3
 Codeigniter Library to construct frontend with integrated support for
-- [x] Bootstrap 4.0A 
+- [x] Bootstrap 4.0A
 - [x] jQuery
 - [x] Font Awesome 5
 - [x] Animate CSS
@@ -9,18 +9,18 @@ Codeigniter Library to construct frontend with integrated support for
 - [ ] Favicon
 - [ ] Meta / Page title
 
-## Easy integration: 
-Composer: 
-`composers require northwebsolutions/ci3-pageconstructor:dev-master`
+## Easy integration:
+Composer: will be coming soon..
 
-manual: 
+
+manual:
 1. Copy the PageConstructor.php to `/application/libraries/`
 2. load PC to CI whit auto or manual method.
 3. Optional edit the settings/switches in the PageConstructor as you need.
 4. Construct your HTML header with `$this->PC->HEAD();`
 5. Construct your Footer with `$this->PC->FOOTER(); ` to the end of your content.
 
-* Now your frontend contains all nessesery files to use bootstrap 4 & 
+* Now your frontend contains all nessesery files to use bootstrap 4 &
 
 ## Manual Load to CodeIgniter
 implement the CodeIgniterigniter standard library load method in the `__construct` or in the `function`.
@@ -73,6 +73,6 @@ if(isset($loadThisView)){
 }else {
     echo '<pre>content not loaded, error</pre>';
 }
-$this->PC->FOOTER(); 
+$this->PC->FOOTER();
 ?>
 ```
